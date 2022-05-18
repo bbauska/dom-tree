@@ -24,7 +24,36 @@ javascript and css frameworks and how to learn them
 JavaScript frameworks were created to make this kind of work a lot easier — they exist to provide a better developer experience. They don't bring brand-new powers to JavaScript; they give you easier access to JavaScript's powers so you can build for today's web.
 
 If you want to see code samples from this section in action, you can check out a working version of the app on CodePen, which also allows users to add and delete new tasks.
+What frameworks are out there?
+There are many frameworks out there, but currently the "big four" are considered to be the following.
 
+Ember
+Ember was initially released in December 2011 as a continuation of work that started in the SproutCore project. It is an older framework that has less users than more modern alternatives such as React and Vue, but it still enjoys a fair amount of popularity due to its stability, community support, and some clever coding principles.
+
+Start learning Ember
+
+Angular
+Angular is an open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. It is a complete rewrite from the same team that built AngularJS. Angular was officially released on the 14th of September 2016.
+
+Angular is a component-based framework which uses declarative HTML templates. At build time, transparently to developers, the framework's compiler translates the templates to optimized JavaScript instructions. Angular uses TypeScript, a superset of JavaScript that we'll look at in a little more detail in the next chapter.
+
+Start learning Angular
+
+Vue
+After working on and learning from the original AngularJS project, Evan You released Vue in 2014. Vue is the youngest of the big four, but has enjoyed a recent uptick in popularity.
+
+Vue, like AngularJS, extends HTML with some of its own code. Apart from that, it mainly relies on modern, standard JavaScript.
+
+Start learning Vue
+
+React
+Facebook released React in 2013. By this point, it had already been using React to solve many of its problems internally. Technically, React itself is not a framework; it's a library for rendering UI components. React is used in combination with other libraries to make applications — React and React Native enable developers to make mobile applications; React and ReactDOM enable them to make web applications, etc.
+
+Because React and ReactDOM are so often used together, React is colloquially understood as a JavaScript framework. As you read through this module, we will be working with that colloquial understanding.
+
+React extends JavaScript with HTML-like syntax, known as JSX.
+
+Start learning React
 Read more about the JavaScript used in this section:
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement">document.createElement()</a>
