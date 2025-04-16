@@ -2,7 +2,7 @@ const width = 500;
 const height = 600;
 const quantity = 150;
 const types = [ 'text', 'select', 'progress', 'meter', 'button', 'radio', 'checkbox' ];
-const greetings = [ 'Joyeuses Fêtes','Felices Fiestas','God Jul','Boas Festas','Mutlu Bayramlar','Sarbatori Fericite','Jie Ri Yu Kuai','Bones Festes','Tanoshii kurisumasu wo','Buone Feste','Happy Holidays', 'Ii holide eximnandi','Frohe Feiertage','Prettige feestdagen','Beannachtaí na Féile','Vesele Praznike','Selamat Hari Raya','Sretni praznici' ];
+const greetings = [ 'Silus Gaming World','Silus Spider','Silus','Grandpa','Learn JavaScript with Brian','Silus Gaming','Happy 15th Bday','Happy Holidays','Silus 50 Char Channel','Silus Spider' ];
 
 let tree = document.querySelector( '.tree' ),
     treeRotation = 0;
