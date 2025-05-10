@@ -1,11 +1,13 @@
+<!-- .js/domtree.js of DOM-Tree for dom-tree.bauska.org -->
 const width = 500;
 const height = 600;
 const quantity = 150;
 const types = [ 'text', 'select', 'progress', 'meter', 'button', 'radio', 'checkbox' ];
-const greetings = [ 'Silus Gaming World','Silus Spider','Silus','Grandpa','Learn JavaScript with Brian','Silus Gaming','Happy 15th Bday','Happy Holidays','Silus 50 Char Channel','Silus Spider' ];
+const greetings = [ 'silus','Silus','SilusGW','Grandpa','Poppie','Silus Gaming World','Silus Spider',
+  'Learn JS w/Brian','Silus Gaming','Happy Bday','Happy Holidays','Silus 50 Char Channel',
+  'Silus Spider','analytics','mr beast','beast','cellardoor','youtube','You Tube','YouTube' ];
 
-let tree = document.querySelector( '.tree' ),
-    treeRotation = 0;
+let tree = document.querySelector( '.tree' ), treeRotation = 0;
 
 tree.style.width = width + 'px';
 tree.style.height = height + 'px';
@@ -69,18 +71,18 @@ for( var i = 0; i < quantity; i++ ) {
 
 // Let it snow
 for( var i = 0; i < 200; i++ ) {
-    let element = document.createElement( 'input' );
-    element.setAttribute( 'type', 'radio' );
-    let spread = window.innerWidth/2;
-    let x = Math.round( Math.random() * spread ) - ( spread / 4 ),
-        y = Math.round( Math.random() * height ),
-        z = Math.round( Math.random() * spread ) - ( spread / 2 );
-    let rx = 0,
-        ry = Math.random() * 360,
-        rz = 0;
-    if( Math.random() > 0.5 ) element.setAttribute( 'checked', '' );
-    element.style.transform = `translate3d(${x}px, ${y}px, ${z}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg)`;
-    tree.appendChild( element );
+  let element = document.createElement( 'input' );
+  element.setAttribute( 'type', 'radio' );
+  let spread = window.innerWidth/2;
+  let x = Math.round( Math.random() * spread ) - ( spread / 4 ),
+      y = Math.round( Math.random() * height ),
+      z = Math.round( Math.random() * spread ) - ( spread / 2 );
+  let rx = 0,
+      ry = Math.random() * 360,
+      rz = 0;
+  if( Math.random() > 0.5 ) element.setAttribute( 'checked', '' );
+  element.style.transform = `translate3d(${x}px, ${y}px, ${z}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg)`;
+  tree.appendChild( element );
 }
 
 function resize() {
